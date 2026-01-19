@@ -14,6 +14,7 @@
 
 -- CREATE DATABASE IF NOT EXISTS DataWareHouse; dont think you are needed bud --
 -- DROP DATABASE DataWareHouse; --
+
 CREATE DATABASE IF NOT EXISTS dw_bronze;
 CREATE DATABASE IF NOT EXISTS dw_silver;
 CREATE DATABASE IF NOT EXISTS dw_gold;
