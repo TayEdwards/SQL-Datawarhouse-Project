@@ -13,7 +13,7 @@
 	==============================================================================================================
     Script purpose:
 		Uses the bronze layer database (dw_bronze) firstly drops the table to start off with before creating new table.
-        Following the nameing convention we create the table for the 6 files that need a table each to be created.
+        Following the nameing convention 1:1 we create the table the 6 tables one for each file.
         script sets the UTF-16 unicode characters at the table level.
         
 		
