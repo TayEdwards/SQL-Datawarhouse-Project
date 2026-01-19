@@ -1,7 +1,7 @@
 /*
     ==============================================================================================================
 	MySQL vs SQLserver
-    MySQL does not the same logical grouping that SQL server has. There for going to create dw_bronze, dw_silver and dw_gold to represent schemas which are
+    MySQL does not have the same logical grouping that Microsoft SQLserver has. There for going to create dw_bronze, dw_silver and dw_gold to represent schemas which are
     there own databases.
     
     ** DONT THINK DATAWAREHOUSE DB IS NEEDED HERE AS THERE IS NO HIERARCHY FOR SCHEMAS INSIDE OF DATAWAREHOUSE LIKE SQLSERVER WILL UPDATE IF NEEDED **
