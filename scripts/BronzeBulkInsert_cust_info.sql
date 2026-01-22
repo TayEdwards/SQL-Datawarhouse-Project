@@ -1,7 +1,7 @@
 /*
 	====================================================================
     Description:
-		Had a few issues with this one loading into the file and couple errors but all have been sorted no errors when executing file now. 
+		Had a few issues with this one loading into the file and couple errors but all have been sorted, no errors when executing file now. 
         Because I dont know the best standard to deal with missing values iv added NULL values to the rows were there is no value added in the csv file.
         TOTAL ROWS in file: 18495
         TOTAL ROWS ADDED: 18494
@@ -9,7 +9,7 @@
     
 	====================================================================
 	Script purpose:
-		Loads all the data from the csv file into the crm_cust_info table. If no value is found then we are adding the null value to represent it.
+		Loads all the data from the csv file "cust_info.csv' into the crm_cust_info table. If no value is found then we are adding the null value to represent it.
 */
 USE dw_bronze;
 SHOW VARIABLES LIKE 'secure_file_priv';
