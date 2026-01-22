@@ -9,10 +9,13 @@
     
 	====================================================================
 	Script purpose:
-		Loads all the data from the csv file "cust_info.csv' into the crm_cust_info table. If no value is found then we are adding the null value to represent it.
+		truncates the table first so we dont do duplicates then loads all the data from the csv file "cust_info.csv' into the crm_cust_info table. If no value is found then we are adding the null value to represent it.
 */
 USE dw_bronze;
 SHOW VARIABLES LIKE 'secure_file_priv';
+
+TRUNCATE TABLE crm_cust_info;
+
 LOAD DATA LOCAL INFILE '/home/tay/dataWareHouse/sql-data-warehouse-project/datasets/source_crm/cust_info.csv'
 INTO TABLE crm_cust_info
 FIELDS TERMINATED BY ','
