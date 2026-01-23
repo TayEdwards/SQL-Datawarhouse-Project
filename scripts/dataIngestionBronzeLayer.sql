@@ -40,7 +40,7 @@ CREATE TABLE dw_bronze.crm_prd_info(
     prd_key VARCHAR(50),
     prd_nm VARCHAR(100),
     prd_cost int,
-    prd_line CHAR(1),
+    prd_line CHAR(5),
     prd_start_dt DATE,
     prd_end_dt DATE
 )CHARACTER SET utf16 COLLATE utf16_general_ci;
