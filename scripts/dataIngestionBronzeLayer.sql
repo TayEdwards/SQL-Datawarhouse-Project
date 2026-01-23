@@ -9,7 +9,8 @@
     Wont be hard to change if need be any way.
     
     Also Baraa uses nvarchar(50) for the cst_marital_status & cst_gender but looking at the
-    data there is only one character therefore i have opted to use CHAR(1). Will update if changes are needed
+    data there is only one character therefore i have opted to use CHAR(1). Will update if changes are needed. (UPDATE have seen the need for larger char in the crm_prd_info prd_line updated to size 5.
+	may need to update all chars to at least 10 to have some wiggle room)
 	==============================================================================================================
     Script purpose:
 		DROPS tables first if they exists so we are able to edit them if needed.
