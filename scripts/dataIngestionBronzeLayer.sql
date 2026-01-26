@@ -81,5 +81,5 @@ CREATE TABLE dw_bronze.erp_px_cat_g1v2(
 	id VARCHAR(10),
     cat VARCHAR(50),
     subcat VARCHAR(100),
-    Maintenance VARCHAR(10)
+    maintenance VARCHAR(10)
 )CHARACTER SET utf16 COLLATE utf16_general_ci;
