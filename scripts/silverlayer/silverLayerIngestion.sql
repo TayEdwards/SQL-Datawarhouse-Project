@@ -32,10 +32,11 @@ DROP TABLE IF EXISTS dw_silver.crm_prd_info;
 
 CREATE TABLE dw_silver.crm_prd_info(
 	prd_id int,
+    cat_id VARCHAR(50),
     prd_key VARCHAR(50),
     prd_nm VARCHAR(100),
     prd_cost int,
-    prd_line CHAR(5),
+    prd_line VARCHAR(100),
     prd_start_dt DATE,
     prd_end_dt DATE,
     dwh_create_date DATETIME DEFAULT CURRENT_TIMESTAMP
